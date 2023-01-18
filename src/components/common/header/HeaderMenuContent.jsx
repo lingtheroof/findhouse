@@ -7,7 +7,7 @@ const HeaderMenuContent = ({ float = "" }) => {
   const home = [
     {
       id: 1,
-      name: "Home 1",
+      name: "Home 6",
       routerPath: "/",
     },
     { id: 2, name: "Home 2", routerPath: "/home-2" },
@@ -18,7 +18,7 @@ const HeaderMenuContent = ({ float = "" }) => {
     },
     { id: 4, name: "Home 4", routerPath: "/home-4" },
     { id: 5, name: "Home 5", routerPath: "/home-5" },
-    { id: 6, name: "Home 6", routerPath: "/home-6" },
+    { id: 6, name: "Home 1", routerPath: "/home-6" },
     { id: 7, name: "Home 7", routerPath: "/home-7" },
     { id: 8, name: "Home 8", routerPath: "/home-8" },
     { id: 9, name: "Home 9", routerPath: "/home-9" },
