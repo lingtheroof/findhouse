@@ -245,9 +245,9 @@ const HeaderMenuContent = ({ float = "" }) => {
       
   
 <li className="last">
-        <Link href="/">
+        <Link href="/home-6">
           <a
-            className={route.pathname === "/home" ? "ui-active" : undefined}
+            className={route.pathname === "/home-6" ? "ui-active" : undefined}
           >
             Home
           </a>
