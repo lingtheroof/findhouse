@@ -249,7 +249,7 @@ const HeaderMenuContent = ({ float = "" }) => {
           <a
             className={route.pathname === "/home-6" ? "ui-active" : undefined}
           >
-            home
+            Home
           </a>
         </Link>
       </li>
@@ -399,7 +399,7 @@ const HeaderMenuContent = ({ float = "" }) => {
         </ul>
       </li>
       {/* End .dropitem */}
-
+{/* 
       <li className="dropitem">
         <a
           href="#"
@@ -435,7 +435,20 @@ const HeaderMenuContent = ({ float = "" }) => {
           ))}
         </ul>
       </li>
-      {/* End .dropitem */}
+      End .dropitem */}
+
+
+<li className="last">
+        <Link href="/blog-list-3">
+          <a
+            className={route.pathname === "/blog-list-3" ? "ui-active" : undefined}
+          >
+            News
+          </a>
+        </Link>
+      </li>
+
+
 
       <li className="last">
         <Link href="/contact">
