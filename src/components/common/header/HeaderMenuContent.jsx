@@ -243,44 +243,13 @@ const HeaderMenuContent = ({ float = "" }) => {
       data-menu-style="horizontal"
     >
       
-   {/* End .dropitem 
-    <li className="dropitem">
-        <a
-          href="#"
-          className={
-            home.some((page) => page.routerPath === route.pathname)
-              ? "ui-active"
-              : undefined
-          }
-        >
-          <span className="title">Home</span>
-          <span className="arrow"></span>
-        </a>
-        {/* <!-- Level Two--> */}
-
-        <ul className="sub-menu ">
-          {home.map((item) => (
-            <li key={item.id}>
-              <Link href={item.routerPath}>
-                <a
-                  className={
-                    route.pathname === item.routerPath ? "ui-active" : undefined
-                  }
-                >
-                  {item.name}
-                </a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </li>
-*/} 
+  
 <li className="last">
         <Link href="/">
           <a
             className={route.pathname === "/home-6" ? "ui-active" : undefined}
           >
-            Contact
+            home
           </a>
         </Link>
       </li>
