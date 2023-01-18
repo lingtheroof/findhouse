@@ -259,7 +259,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       <li className="last">
         <Link href="/listing-grid-v6">
           <a
-            className={route.pathname === "/listing-grid-v5" ? "ui-active" : undefined}
+            className={route.pathname === "/listing-grid-v6" ? "ui-active" : undefined}
           >
             New Developments
           </a>
