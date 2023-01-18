@@ -261,7 +261,7 @@ const HeaderMenuContent = ({ float = "" }) => {
           <a
             className={route.pathname === "/listing-grid-v5" ? "ui-active" : undefined}
           >
-            New Development
+            New Developments
           </a>
         </Link>
       </li>
