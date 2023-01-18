@@ -7,7 +7,7 @@ const HeaderMenuContent = ({ float = "" }) => {
   const home = [
     {
       id: 1,
-      name: "Home 6",
+      name: "Home",
       routerPath: "/",
     },
     { id: 2, name: "Home 2", routerPath: "/home-2" },
@@ -242,7 +242,9 @@ const HeaderMenuContent = ({ float = "" }) => {
       className="ace-responsive-menu text-end d-lg-block d-none"
       data-menu-style="horizontal"
     >
-      <li className="dropitem">
+      
+   {/* End .dropitem 
+    <li className="dropitem">
         <a
           href="#"
           className={
@@ -272,6 +274,17 @@ const HeaderMenuContent = ({ float = "" }) => {
           ))}
         </ul>
       </li>
+*/} 
+<li className="last">
+        <Link href="/">
+          <a
+            className={route.pathname === "/home-6" ? "ui-active" : undefined}
+          >
+            Contact
+          </a>
+        </Link>
+      </li>
+
       {/* End .dropitem */}
 
       <li className="dropitem">
