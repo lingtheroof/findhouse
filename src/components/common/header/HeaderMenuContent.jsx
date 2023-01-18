@@ -267,7 +267,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       </li>
 
       {/* End .dropitem */}
-      <li className="last">
+  {/*    <li className="last">
         <Link href="/listing-grid-v5">
           <a
             className={route.pathname === "/listing-grid-v5" ? "ui-active" : undefined}
@@ -277,9 +277,9 @@ const HeaderMenuContent = ({ float = "" }) => {
         </Link>
       </li>
 
-      {/* End .dropitem */}
+       End .dropitem */}
 
-      {/* End .dropitem 
+      {/* End .dropitem */}
 
       <li className="dropitem">
         <a
@@ -290,7 +290,7 @@ const HeaderMenuContent = ({ float = "" }) => {
               : undefined
           }
         >
-          <span className="title">Pages</span>
+          <span className="title">Properties</span>
           <span className="arrow"></span>
         </a>
         <ul className="sub-menu ">
@@ -309,7 +309,9 @@ const HeaderMenuContent = ({ float = "" }) => {
           ))}
         </ul>
       </li>
-*/}
+      
+{/* End .dropitem */}
+
 
 
 {/* 
