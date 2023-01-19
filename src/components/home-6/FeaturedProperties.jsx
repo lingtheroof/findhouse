@@ -59,7 +59,7 @@ const FeaturedProperties = () => {
                   <ul className="tag mb0">
                     {item.saleTag.map((val, i) => (
                       <li className="list-inline-item" key={i}>
-                        <a href="#">{val}</a>
+                        <a href="/listing-grid-v5">{val}</a>
                       </li>
                     ))}
                   </ul>
