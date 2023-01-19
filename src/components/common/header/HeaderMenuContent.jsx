@@ -223,9 +223,9 @@ const HeaderMenuContent = ({ float = "" }) => {
   ];
 
   const pages = [
-    { id: 1, name: "About Us", routerPath: "/about-us" },
-    { id: 2, name: "Gallery", routerPath: "/gallery" },
-    { id: 3, name: "Faq", routerPath: "/faq" },
+    { id: 1, name: "For Sale", routerPath: "/listing-grid-v5" },
+    { id: 2, name: "For Rent", routerPath: "/listing-grid-v5" },
+   {/*  { id: 3, name: "Faq", routerPath: "/faq" },
     { id: 4, name: "LogIn", routerPath: "/login" },
     { id: 5, name: "Compare", routerPath: "/compare" },
     { id: 6, name: "Membership", routerPath: "/membership" },
@@ -233,7 +233,7 @@ const HeaderMenuContent = ({ float = "" }) => {
     { id: 7, name: "Register", routerPath: "/register" },
     { id: 8, name: "Service", routerPath: "/service" },
     { id: 9, name: "404 Page", routerPath: "/404" },
-    { id: 10, name: "Terms & Conditions", routerPath: "/terms" },
+    { id: 10, name: "Terms & Conditions", routerPath: "/terms" },*/}
   ];
 
   return (
