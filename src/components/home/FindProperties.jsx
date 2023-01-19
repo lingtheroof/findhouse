@@ -6,7 +6,7 @@ const FindProperties = () => {
     <>
       {findProperties.slice(0, 4).map((item) => (
         <div className={`col-lg-4 ${item.column}`} key={item.id}>
-          <Link href="/listing-grid-v1">
+          <Link href="/listing-grid-v5">
             <a className="properti_city d-block">
               <div className="thumb">
                 <img className="img-fluid w100" src={item.img} alt="pc1.jpg" />
